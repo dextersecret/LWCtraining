@@ -1,0 +1,17 @@
+<template>
+    <div class="container">
+        <button onclick={toggleItem}>Toggle item</button>
+        <div if:true={showItem}>
+            <li>Showing if true</li>
+        </div>
+        <div if:false={showItem}>
+            <li>Showing if false</li>
+        </div>
+        
+        <ul>
+        <template for:each={array} for:item="item" for:index="i">
+            <li key={item}>{item}{i}</li>
+        </template>
+        </ul>
+    </div>
+</template>
