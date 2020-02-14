@@ -1,0 +1,8 @@
+<template>
+    <div>
+        <button onclick={toggleItem}>Toggle Item</button>
+        <template if:true={showItem}>
+            <c-lwc6-List-Item item="Awesome Item"></c-lwc6-List-Item>
+        </template>
+    </div>
+</template>
