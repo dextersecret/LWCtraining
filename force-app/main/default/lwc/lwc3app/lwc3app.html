@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <p onclick={changeTrack}>Message: {checkStatus}</p>
+        <p onclick={changeTrack}>My Message: {checkStatus}</p>
+        <p onclick={changeApi}>Click to change api {apiVar}</p>
+
         <c-lwc3-handler pub-var={apiVar}></c-lwc3-handler>
 
     </div>

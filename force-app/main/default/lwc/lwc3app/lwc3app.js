@@ -7,6 +7,9 @@ export default class LwcPlay3 extends LightningElement {
 	changeTrack() {
 		this.trackVar = !this.trackVar;
 	}
+	changeApi() {
+		this.apiVar++;
+	}
 
 	get checkStatus() {
 		return this.trackVar ? 'Welcome' : 'Need to log in!';
