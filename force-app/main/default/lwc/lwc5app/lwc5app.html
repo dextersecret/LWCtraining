@@ -1,0 +1,9 @@
+<template>
+    <div class="container">
+        <div>
+            <template for:each={list} for:item="fruit">
+                <c-lwc5-list-item key={fruit} item={fruit}></c-lwc5-list-item>
+            </template>
+        </div>
+    </div>
+</template>
