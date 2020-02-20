@@ -13,6 +13,7 @@ export const useStore = (() => {
 			return store;
 		};
 		// ..creation of store and store methods
+		return { getStore, setStore };
 	};
 
 	return () => {
