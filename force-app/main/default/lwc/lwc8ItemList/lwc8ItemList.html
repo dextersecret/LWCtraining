@@ -1,3 +1,7 @@
 <template>
-    <div>ITEM LIST</div>
+    <ul>
+        <template for:each={items} for:item="item">
+            <li key={item}></li>
+        </template>
+    </ul>
 </template>
