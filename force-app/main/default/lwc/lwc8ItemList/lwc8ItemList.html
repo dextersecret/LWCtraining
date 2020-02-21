@@ -1,7 +1,9 @@
 <template>
+    <p>ITEM LIST: </p><br/>
+    <button onclick={updateItems}>UPDATE</button>
     <ul>
         <template for:each={items} for:item="item">
-            <li key={item}></li>
+            <li key={item}>{item}</li>
         </template>
     </ul>
 </template>

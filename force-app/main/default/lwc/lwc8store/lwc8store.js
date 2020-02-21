@@ -18,7 +18,7 @@ export const useStore = (() => {
 
 	return () => {
 		if (!storeInstance) {
-			storeInstance = createStoreInstance;
+			storeInstance = createStoreInstance();
 		}
 		return storeInstance;
 	};

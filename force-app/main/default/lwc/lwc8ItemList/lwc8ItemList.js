@@ -9,4 +9,7 @@ export default class Lwc8ItemList extends LightningElement {
 		this.store = useStore();
 		this.items = this.store.getStore();
 	}
+	updateItems() {
+		this.items = this.store.getStore();
+	}
 }
