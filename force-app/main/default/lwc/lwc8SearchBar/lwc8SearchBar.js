@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=rzdMEiNhMNc&feature=emb_title
 import { LightningElement } from 'lwc';
 import { useStore } from 'c/lwc8store';
 
